@@ -1,37 +1,25 @@
-# Sales_Insights_Using_PowerBI_SQL
-# Overview
-This project is a comprehensive analysis of sales data using PowerBI and SQL. It provides valuable insights into sales performance, trends, and patterns, enabling informed decision-making.
+# Sales Performance & Revenue Analytics
 
-Table of Contents
-Project Description
-Getting Started
-Data Sources
-Data Preparation
-Analysis
-Visualizations
-Conclusion
+## Business Problem
+Identify the drivers behind sales performance across customers, markets, products and channels.
 
-This project aims to analyze and visualize sales data to extract meaningful insights. We used PowerBI for data visualization and SQL for data extraction, transformation, and loading (ETL).
+## Key Findings
+- **Top 5 customers = ~61% of revenue** → high customer concentration risk.
+- **North = ~69% of revenue; South <5%** → significant regional imbalance.
+- **Brick & Mortar = ~76% of revenue** → strong channel dependency.
+- Sales declined after the 2018 peak → required deeper market, customer and product analysis.
 
-# Getting Started
-To run this project locally, follow these steps:
+## Business Opportunities
+- Diversify the customer base and monitor high-dependency accounts.
+- Investigate South-region underperformance and growth potential.
+- Evaluate E-Commerce expansion to reduce channel dependency.
+- Monitor declining markets, customers and products for early intervention.
 
-Clone this repository to your local machine.
-Install PowerBI Desktop and SQL Server if not already installed.
-Import the provided SQL database backup and connect it to PowerBI.
-Open the PowerBI file (sales_insights.pbix) in PowerBI Desktop.
-# Data Sources
-The project uses a SQL database that contains sales data.
-Additional data sources include product information and customer data.
-# Data Preparation
-SQL queries were used to clean and transform the data.
-Data joins, filtering, and aggregation were performed to create a clean dataset for analysis.
-Analysis
-Various SQL queries were used to extract sales-related data.
-PowerBI was used to create interactive dashboards and visualizations.
-Key performance indicators (KPIs) were calculated to assess sales performance.
-# Visualizations
-The project includes various visualizations such as bar charts, line graphs, and pie charts.
-Visualizations provide insights into sales trends, top-performing products, and customer segments.
-# Conclusion
-This project offers valuable insights into sales performance, allowing businesses to make data-driven decisions. It demonstrates the power of data analysis and visualization using PowerBI and SQL.
+## Analysis
+SQL was used for extraction, joins, filtering, aggregation and date-based analysis. Power BI was used to model, visualize and investigate sales performance.
+
+## Tech Stack
+**MySQL | SQL | Power BI | DAX | Data Modelling**
+
+## Dashboard
+Open the `.pbix` file in Power BI Desktop to explore the interactive analysis.
